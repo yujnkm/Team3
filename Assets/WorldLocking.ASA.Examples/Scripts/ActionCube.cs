@@ -85,7 +85,7 @@ namespace Microsoft.MixedReality.WorldLocking.ASA.Examples
             foreach (var rend in renderers)
             {
                 materials.Add(rend.material);
-                //originals.Add(rend.material.GetColor(colorParamName));
+                originals.Add(rend.material.GetColor(colorParamName));
                 Debug.Log($"Got {rend.material.name} from {rend.name}");
             }
         }
